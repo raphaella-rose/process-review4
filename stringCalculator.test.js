@@ -16,4 +16,8 @@ describe("string calculator function", () => {
   it("returns sum string and evaluated result when input is a single addition sum", () => {
     expect(stringCalculator("1 + 1")).toEqual(["1 + 1", 2])
   })
+
+  it("returns sum string and evaluated result when input is a single addition sum", () => {
+    expect(stringCalculator("2 + 2")).toEqual(["2 + 2", 4])
+  })
 })
