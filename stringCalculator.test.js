@@ -8,4 +8,8 @@ describe("string calculator function", () => {
   it("returns sum string and evaluated result when input is 2", () => {
     expect(stringCalculator("2")).toEqual(["2", 2])
   })
+
+  it("returns sum string and evaluated result when input is 3", () => {
+    expect(stringCalculator("3")).toEqual(["3", 3])
+  })
 })
